@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "670955823631",
+    "project_id": "kintoandroid",
+    "storage_bucket": "kintoandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670955823631:android:9ac86eec80d2af5840797a",
+        "android_client_info": {
+          "package_name": "com.example.yazlabproje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670955823631-a3gi6congkp2tp5vb1mf6pbsihb3fp79.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yazlabproje",
+            "certificate_hash": "1b3cc8a691d228475a8a10016bd05b737759e4b2"
+          }
+        },
+        {
+          "client_id": "670955823631-qp9u6i2raspvbrskq4h5cc0blaqve9fb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf3RIaL_GsLmOA3liwYnZ2MLK9AVZTuMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670955823631-qp9u6i2raspvbrskq4h5cc0blaqve9fb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

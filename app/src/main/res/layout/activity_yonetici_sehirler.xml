@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6B45D"
+    tools:context=".YoneticiSehirlerActivity">
+
+    <TextView
+        android:id="@+id/Basiskele"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="24dp"
+        android:text="Başiskele"
+        android:textColor="#3E2723"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Derince"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="8dp"
+        android:text="Derince"
+        android:textColor="#3E2723"
+        app:layout_constraintBottom_toTopOf="@+id/DerinceSayi"
+        app:layout_constraintStart_toStartOf="@+id/DerinceSayi" />
+
+    <EditText
+        android:id="@+id/KaramurselSayi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="9dp"
+        android:ems="10"
+        android:hint="@string/SehirGir"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#3E2723"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Karamursel" />
+
+    <TextView
+        android:id="@+id/Dilovasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="21dp"
+        android:text="Dilovası"
+        android:textColor="#3E2723"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DaricaSayi" />
+
+    <EditText
+        android:id="@+id/IzmitSayi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
+        android:ems="10"
+        android:hint="@string/SehirGir"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#3E2723"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/KorfezSayi"
+        app:layout_constraintTop_toBottomOf="@+id/KaramurselSayi" />
+
+    <TextView
+        android:id="@+id/Izmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="4dp"
+        android:text="İzmit"
+        android:textColor="#3E2723"
+        app:layout_constraintBottom_toTopOf="@+id/IzmitSayi"
+        app:layout_constraintStart_toStartOf="@+id/IzmitSayi" />
+
+    <EditText
+        android:id="@+id/DerinceSayi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="@string/SehirGir"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#263238"
+        app:layout_constraintStart_toEndOf="@+id/DaricaSayi"
+        app:layout_constraintTop_toTopOf="@+id/DaricaSayi" />
+
+    <EditText
+        android:id="@+id/KandiraSayi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="@string/SehirGir"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#3E2723"
+        app:layout_constraintStart_toEndOf="@+id/GolcukSayi"
+        app:layout_constraintTop_toTopOf="@+id/GolcukSayi" />
+
+    <TextView
+        android:id="@+id/Korfez"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="4dp"
+        android:text="Körfez"
+        android:textColor="#3E2723"
+        app:layout_constraintBottom_toTopOf="@+id/KorfezSayi"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/KartepeSayi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="9dp"
+        android:ems="10"
+        android:hint="@string/SehirGir"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#263238"
+        app:layout_constraintStart_toEndOf="@+id/KaramurselSayi"
+        app:layout_constraintTop_toBottomOf="@+id/Kartepe" />
+
+    <EditText
+        android:id="@+id/GebzeSayi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="@string/SehirGir"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#3E2723"
+        app:layout_constraintStart_toEndOf="@+id/DilovasiSayi"
+        app:layout_constraintTop_toTopOf="@+id/DilovasiSayi" />
+
+    <TextView
+        android:id="@+id/Kandira"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="16dp"
+        android:text="Kandıra"
+        app:layout_constraintBottom_toTopOf="@+id/KandiraSayi"
+        app:layout_constraintStart_toStartOf="@+id/KandiraSayi"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/Cayirova"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:text="Çayırova"
+        android:textColor="#3E2723"
+        app:layout_constraintStart_toEndOf="@+id/BasiskeleSayi"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/DilovasiSayi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:hint="@string/SehirGir"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#3E2723"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Dilovasi"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <EditText
+        android:id="@+id/CayirovaSayi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="@string/SehirGir"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#3E2723"
+        app:layout_constraintStart_toStartOf="@+id/Cayirova"
+        app:layout_constraintTop_toBottomOf="@+id/Cayirova" />
+
+    <EditText
+        android:id="@+id/BasiskeleSayi"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp"
+        android:ems="10"
+        android:hint="@string/SehirGir"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#3E2723"
+        app:layout_constraintBaseline_toBaselineOf="@+id/CayirovaSayi"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Darica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="17dp"
+        android:text="Darıca"
+        android:textColor="#3E2723"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BasiskeleSayi" />
+
+    <TextView
+        android:id="@+id/Kartepe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:text="Kartepe"
+        android:textColor="#3E2723"
+        app:layout_constraintStart_toStartOf="@+id/KandiraSayi"
+        app:layout_constraintTop_toBottomOf="@+id/KandiraSayi" />
+
+    <EditText
+        android:id="@+id/KorfezSayi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginEnd="1dp"
+        android:ems="10"
+        android:hint="@string/SehirGir"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#3E2723"
+        app:layout_constraintBaseline_toBaselineOf="@+id/IzmitSayi"
+        app:layout_constraintEnd_toStartOf="@+id/IzmitSayi"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Gebze"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="4dp"
+        android:text="Gebze"
+        android:textColor="#3E2723"
+        app:layout_constraintBottom_toTopOf="@+id/GebzeSayi"
+        app:layout_constraintStart_toStartOf="@+id/GebzeSayi" />
+
+    <TextView
+        android:id="@+id/Golcuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="21dp"
+        android:text="Gölcük"
+        android:textColor="#3E2723"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DilovasiSayi" />
+
+    <EditText
+        android:id="@+id/DaricaSayi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/SehirGir"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#3E2723"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Darica" />
+
+    <EditText
+        android:id="@+id/GolcukSayi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/SehirGir"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#3E2723"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Golcuk" />
+
+    <TextView
+        android:id="@+id/Karamursel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:text="Karamürsel"
+        android:textColor="#3E2723"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GolcukSayi" />
+
+    <Button
+        android:id="@+id/buttonGuncelle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="21dp"
+        android:text="Güncelle"
+        app:layout_constraintEnd_toEndOf="@+id/Izmit"
+        app:layout_constraintTop_toBottomOf="@+id/KorfezSayi" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
